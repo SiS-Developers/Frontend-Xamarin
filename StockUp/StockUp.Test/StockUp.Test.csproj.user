@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <StartAction>Project</StartAction>
+    <StartProgram>StockUp.Test.csproj</StartProgram>
+    <EnvironmentVariables>
+      <Variable name="ANDROID_HOME" value="/Users/manoharchitoda/Library/Android/sdk/platform-tools/systrace/catapult/devil/devil/android/sdk" />
+    </EnvironmentVariables>
+  </PropertyGroup>
+</Project>
